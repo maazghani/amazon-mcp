@@ -131,7 +131,7 @@ export function registerSearchProductsTool(
             text: formatProductResults(result, input.keywords)
           }
         ],
-        structuredContent: result as unknown as Record<string, unknown>
+        structuredContent: result as Record<string, unknown>
       };
     }
   );
